@@ -5,7 +5,8 @@ public class Main {
         System.out.println(getSmallest(new String[]{ "asdasd", "asdasdasasd", "asda", "asdasd", "asdasd" }));
         Fraction f = new Fraction(12, 18);
         System.out.println(f);
-        System.out.println(Fraction.truncate(f));
+        f.truncate();
+        System.out.println(f);
         Fraction f1 = new Fraction(1, 3);
         System.out.println(Fraction.subtract(f, f1));
         System.out.println(Fraction.multiply(f, f1));
